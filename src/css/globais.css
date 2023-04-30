@@ -9,7 +9,11 @@ html {
   }
   
   body {
-    background-color: var(--cor-fundo-cinza-escuro);
+    /* background-color: var(--cor-fundo-cinza-escuro); */
+    background-image: url(../imagens/develop.jpg);
+    background-size: contain;
+    width: 100%;
+    min-height: 100vh;
     font-family: var(--fonte-primaria);
     font-size: var(--fonte-normal);
   }
